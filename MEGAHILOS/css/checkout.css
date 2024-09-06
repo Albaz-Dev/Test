@@ -1,0 +1,102 @@
+main>.container {
+    padding: 30px 0;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    background-color: #17a2b8; /* Color azul turquesa para los encabezados de tabla */
+    color: #fff;
+}
+
+.table tbody td {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.table tbody tr:hover {
+    background-color: #e2e6ea; /* Resaltar fila al pasar el ratón */
+}
+
+/* Estilos para los botones */
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #00407a;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Estilos para el input de cantidad */
+.table input[type="number"] {
+    width: auto; /* Ajusta el ancho del input según el contenido */
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+/* Estilos para el modal */
+.modal-content {
+    border-radius: 0.25rem;
+}
+
+.modal-header {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* Botones del modal con ancho completo */
+.modal-footer .btn {
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .modal-footer .btn {
+        width: auto; /* Para dispositivos móviles, ajusta el ancho de los botones */
+    }
+}

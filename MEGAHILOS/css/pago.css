@@ -1,0 +1,68 @@
+main>.container {
+    padding: 30px 0;
+}
+/* Estilos específicos para la página de pago */
+.checkout-payment .payment-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.checkout-payment .text-payment-header {
+    color: #0056b3;
+    margin-bottom: 1.5rem;
+}
+
+.checkout-payment .checkout-table {
+    margin-top: 1rem;
+}
+
+.checkout-payment .checkout-table thead th {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.checkout-payment .checkout-table tbody {
+    background-color: #f9f9fa;
+}
+
+.checkout-payment .checkout-table tbody tr:hover {
+    background-color: #eff0f1;
+}
+
+.checkout-payment .checkout-table tfoot tr {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.checkout-payment .checkout-table tfoot td {
+    font-weight: bold;
+}
+
+.checkout-payment .paypal-button-container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Botones específicos para la página de pago */
+.checkout-payment .btn-confirm {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.checkout-payment .btn-confirm:hover {
+    background-color: #218838;
+}
+
+/* Media query para ajustes responsivos */
+@media (max-width: 768px) {
+    .checkout-payment .payment-container {
+        padding: 1rem;
+    }
+}

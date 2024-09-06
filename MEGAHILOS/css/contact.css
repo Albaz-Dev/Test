@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegúrate de que el header ocupe todo el ancho de la pantalla */
+    z-index: 1000; /* Un z-index alto asegura que el header esté siempre encima de otros elementos */
+}
+
+#header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.1);
+}
+
+main{
+    margin-top: 150px; /* Ajusta este valor según la altura de tu header */
+}
+
+#header a{
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+    padding-left: 500px;
+    gap: 20px;
+}
+
+#header .link-1, .link-2, .link-3 {
+    color: #5C7798;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.3s; 
+    border-bottom: 3px solid transparent;
+}
+
+#header .link-1:hover, 
+#header .link-2:hover, 
+#header .link-3:hover, 
+#header .site-name-link:hover {
+    border-bottom-color: #DAA520;
+}
+
+.site-name {
+    display: flex;
+    flex-direction: column;  /* Para que se muestren en columna */
+    align-items: center;  /* Para centrar horizontalmente el contenido */
+    color: #DAA520;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.brand-part1 {
+    font-size: 24px;
+    letter-spacing: 0.7px;
+    margin-bottom: 5px; /* Un pequeño margen para separar de "Electronics" */
+}
+
+.brand-part2 {
+    font-size: 20px;  /* Un tamaño un poco menor para "Electronics" */
+    letter-spacing: 0.5px;
+}
+
+.contact-info {
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la página de contacto */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #F7F9FC;
+    font-size: 16px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h2 {
+    color: #2C3E50;
+    font-size: 32px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #2C3E50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-end;  /* Alinear botón a la derecha */
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #3498DB;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #EDEFF2;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.contact-map {
+    margin-top: 20px;
+}

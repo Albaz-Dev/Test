@@ -1,0 +1,147 @@
+main>.container {
+    padding: 30px 0;
+}
+
+/* General styles */
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-image {
+    height: 450px;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Text and color styles */
+.product-name {
+    font-size: 2.5rem;
+}
+
+.original-price {
+    font-size: 1.2rem;
+}
+
+.discounted-price {
+    font-size: 2rem;
+    color: #28a745;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+/* Button styles */
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+.carousel-image {
+    object-fit: contain; /* Cambio clave aquí */
+    height: 100%; /* Ajustar según sea necesario */
+    width: auto; /* Esto permite que la imagen mantenga su relación de aspecto original */
+    max-height: 500px; /* Ajusta esto según la altura deseada para el carrusel */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .carousel-image {
+        height: auto;
+    }
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40; /* Mantenemos un fondo oscuro para un look moderno */
+    color: #fff;
+    padding: 3rem 0;
+    font-family: 'Open Sans', sans-serif; /* Asumiendo que tienes esta fuente o puedes usar una de tu elección */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre columnas */
+    flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas pequeñas */
+}
+
+.footer h5 {
+    color: #ffd700; /* Un color dorado para los títulos para un look más premium */
+    margin-bottom: 2rem;
+}
+
+.footer a {
+    color: #adb5bd; /* Un gris claro para los enlaces */
+    transition: color 0.3s ease; /* Transición suave para los enlaces al pasar el ratón */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.footer a:hover {
+    color: #ffd700; /* Cambio de color al dorado al pasar el ratón */
+}
+
+.footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem; /* Espacio arriba de los íconos */
+    display: flex;
+    justify-content: flex-start; /* Alineación a la izquierda de los íconos */
+}
+
+.footer .social-icons li {
+    margin-right: 1rem; /* Espacio entre íconos */
+}
+
+.footer .social-icons li a {
+    color: #adb5bd;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons li a:hover {
+    color: #ffd700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer h5 {
+        margin-top: 2rem;
+    }
+}
+
+
+
+.transition-section {
+    background-color: #f0f0f0; 
+    padding: 2rem 0; 
+    text-align: center; 
+}
+
+.transition-quote {
+    font-style: italic; 
+    color: #333; 
+    font-size: 1.5rem; 
+    margin: 0; 
+}
+
+
+.footer {
+    background-color: #343a40; 
+    color: #fff; 
+    padding: 3rem 0; 
+    
+}

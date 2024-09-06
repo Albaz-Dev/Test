@@ -1,0 +1,51 @@
+.about-section {
+    background-color: #f8f9fa; /* O el color que mejor se adapte a la marca */
+  }
+  
+  .about-text {
+    background-color: rgb(97, 122, 128); /* Un color oscuro que contraste con el texto blanco */
+    border-radius: 0.25rem; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Una ligera sombra para dar profundidad */
+    transition: transform 0.3s ease-in-out; /* Para un efecto suave al pasar el ratón */
+  }
+  
+  .about-text:hover {
+    transform: translateY(-5px); /* Eleva ligeramente la tarjeta al pasar el ratón */
+  }
+  
+  .about-text h2 {
+    color: #007bff; /* Un color de acento para los títulos, ajusta al branding */
+  }
+  
+  .about-text p {
+    color: #ffffff; /* Color para el texto */
+  }
+  
+  .about-text footer {
+    color: #dddddd; /* Color más suave para el pie de cita */
+    font-style: italic; /* Estilo de fuente para la cita */
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  .footer h5 {
+    color: #007bff;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    transition: color 0.2s;
+  }
+  
+  .footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer .fab {
+    font-size: 1.5em;
+  }
+  
